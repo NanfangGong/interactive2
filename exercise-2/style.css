@@ -7,7 +7,7 @@ body{
 	font-size: 21 \px;
 	font-family: 'Pacifico', cursive;
 	background: url('image-silk.jpg') 50%;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	position: absolute;
     left: 0;
     top: 0;
