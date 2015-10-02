@@ -1,0 +1,36 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+
+width: 200px;
+padding:200px;
+border:50px dotted black;
+margin:0 auto;
+position:absolute;
+display:inline-block;
+float:right;
+top, right, bottom, left:200px 700px 1000px 600px;
+height, width:2000px;
+	
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

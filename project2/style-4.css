@@ -1,0 +1,42 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+
+width: 6000px;
+padding:5000px;
+border:50px dotted black;
+margin:0 auto;
+position:absolute;
+display:inline-block;
+float:left;
+left:200px;
+	
+}
+
+ and{
+	position:fixed;
+	border:10px underline black;
+	width: 200px;
+padding:200px;
+margin:0 auto;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

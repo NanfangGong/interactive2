@@ -1,0 +1,101 @@
+
+		.body{
+			margin:auto 0;
+			width: 600;
+		}
+
+		.text1{
+			
+			width: 70px;
+			height: 30px;
+			font-style
+font-weight:border;
+font-size:10px;
+font-family:gothic;
+text-align:center;
+line-height:.5em;
+letter-spacing:0.2;
+text-transform:uppercase;
+position: fixed;
+		}
+		.text2{
+			
+			width: 596px;
+			height: 27px;
+			margin-top: 0px;
+			margin-left: 220px;
+			margin-top: -30px;
+			position: fixed;
+			font-style
+font-weight:bold;
+font-size:20px;
+font-family:gothic;
+text-align:right;
+line-height:0.5em;
+letter-spacing:0.3;
+text-transform:uppercase;
+
+		}
+		.text3{
+		
+			width: 596px;
+			height: 27px;
+			position: fixed;
+			margin-left: 220px;
+			display: block;
+			position: inline;
+
+font-size:30px;
+font-family:gothic;
+text-align:left;
+line-height:1em;
+letter-spacing:0.4;
+text-transform:lowercase;
+
+		}
+
+		.text4{
+			
+			width: 596px;
+			height: 27px;
+		float: right;
+			margin-top: -25px;
+			margin-left: 220px;
+			position:absolute;
+font-weight:lighter;
+font-size:40px;
+font-family:gothic;
+text-align:center;
+line-height:1.5em;
+letter-spacing:0.5;
+text-transform:uppercase;
+position: fixed;
+		}
+		*{
+font-style
+font-weight:lighter;
+font-size:40px;
+font-family:gothic;
+text-align:center;
+line-height:1.5em;
+letter-spacing:0.5;
+text-transform:uppercase;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

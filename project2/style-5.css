@@ -1,0 +1,62 @@
+
+		.body{
+			margin:auto 0;
+			width: 600;
+		}
+
+		.text1{
+			background-color: black;
+			width: 70px;
+			color: white;
+			height: 30px;
+		}
+		.text2{
+			background-color: black;
+			width: 596px;
+			color: white;
+			height: 27px;
+			margin-top: 0px;
+			margin-left: 220px;
+			margin-top: -30px;
+			position: fixed;
+
+		}
+		.text3{
+			width: 596px;
+			height: 27px;
+			background-color: black;
+			color: white;
+			margin-left: 220px;
+			display: block;
+			position: inline;
+
+		}
+
+		.text4{
+			background:black;
+			width: 596px;
+			height: 27px;
+			color:white;
+		float: right;
+			margin-top: -25px;
+			margin-left: 220px;
+			position:absolute;
+		}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

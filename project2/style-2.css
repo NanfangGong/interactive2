@@ -1,0 +1,51 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+
+width: 20px;
+padding:20px;
+border:1px dashed black;
+margin:0 auto;
+position:absolute;
+display:block;
+float:left;
+top, right, bottom, left:20px;
+height, width:20px;
+	
+}
+
+	
+
+
+
+
+
+.container{
+	    width: 20px;
+    background-color: yellow;
+
+    padding: 15px;
+    border: 20px dashed red;
+    border-right: 15 px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+
+
+
+
+
+
+
+
+

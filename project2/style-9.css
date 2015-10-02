@@ -1,0 +1,109 @@
+
+		.body{
+			margin:auto 0;
+			width: 600px;
+			height: 5000px;
+		}
+
+		.text1{
+			
+			width: 70px;
+			height: 30px;
+			font-style
+			border-style: 1px dashed black;
+font-weight:bolder;
+font-size:10px;
+font-family:futura;
+text-align:center;
+line-height:.5em;
+letter-spacing:200px;
+text-transform:uppercase;
+position: fixed;
+margin-left: 50px;
+		}
+		.text2{
+			
+			width: 596px;
+			height: 27px;
+			margin-top: 0px;
+			margin-left: 220px;
+			margin-top: -30px;
+			position: fixed;
+			border-style: 1px dashed black;
+font-weight:bold;
+font-size:20px;
+font-family:fantasy;
+text-align:right;
+line-height:0.5em;
+letter-spacing:300px;
+text-transform:uppercase;
+margin-right:50px;
+
+		}
+		.text3{
+		
+			width: 596px;
+			height: 27px;
+			position: fixed;
+			margin-left: 220px;
+			display: block;
+			position: inline;
+			border-style: 1px dashed black;
+
+font-size:30px;
+font-family:cursive;
+text-align:left;
+line-height:1em;
+letter-spacing:400px;
+text-transform:lowercase;
+margin-left:50px;
+
+		}
+
+		.text4{
+			
+			width: 596px;
+			height: 27px;
+		float: right;
+			margin-top: -25px;
+			margin-left: 220px;
+			position:absolute;
+font-weight:lighter;
+font-size:40px;
+font-family:gothic;
+text-align:center;
+line-height:1.5em;
+letter-spacing:500px;
+text-transform:uppercase;
+position: fixed;
+margin-left: 50px;
+border-style: 1px dashed black;
+		}
+		*{
+font-style
+font-weight:lighter;
+font-size:40px;
+font-family:gothic;
+text-align:center;
+line-height:1.5em;
+letter-spacing:0.5;
+text-transform:uppercase;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
