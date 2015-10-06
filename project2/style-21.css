@@ -1,0 +1,55 @@
+
+
+
+
+
+		.body{
+			margin:auto 0;
+		}
+
+		.menu{
+        	width: 1200px;
+        	height:20000px;
+	background-color: blue;
+	border:50px dotted blue;
+	display:inline-block;
+	vertical-align: top;
+	position: fixed;
+	z-index:-1;
+	vertical-align: top;
+	margin-top: -25px;
+	font-style:italic;
+	font-weight: lighter;
+}
+       
+
+       .rectangle{
+       	background-color: black;
+       	color:white;
+       	margin:10px; 
+       	width: 400px;
+       	height: 400px;
+       	vertical-align: center;
+       	text-align: center;
+       
+       
+       }
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

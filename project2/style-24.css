@@ -1,0 +1,150 @@
+
+		.body{
+			margin:auto 0;
+		}
+
+		.menu{
+        	width: 1200px;
+        	height:20000px;
+	background-color: black;
+	border:50px  dashed white;
+	display:inline-block;
+	vertical-align: top;
+	position: fixed;
+	z-index:-1;
+	vertical-align: top;
+	margin-top: -25px;
+	font-style:italic;
+	font-weight: lighter;
+}
+       
+
+       .rectangle{
+       	background-color: black;
+       	color:white;
+       	margin:10px; 
+       	width: 400px;
+       	height: 400px;
+       	vertical-align: center;
+       	text-align: center;
+        width: 200px;
+    height: 100px;
+    position: relative;
+   
+    position: relative;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+      -webkit-animation: mymove 10s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 10s infinite;
+    
+       }
+
+
+       .rectangle1{
+        background-color: black;
+        color:white;
+        margin:10px; 
+        width: 400px;
+        height: 400px;
+        vertical-align: center;
+        text-align: center;
+        width: 100px;
+    height: 100px;
+    position: relative;
+   
+    position: relative;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+      -webkit-animation: mymove 45s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 45s infinite;
+    
+       }
+
+           .rectangle2{
+        background-color: black;
+        color:white;
+        margin:10px; 
+        width: 400px;
+        height: 400px;
+        vertical-align: center;
+        text-align: center;
+        width: 100px;
+    height: 100px;
+    position: relative;
+  
+    position: relative;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+      -webkit-animation: mymove 15s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s infinite;
+    
+       }
+
+           .rectangle3{
+        background-color: black;
+        color:white;
+        margin:10px; 
+        width: 400px;
+        height: 400px;
+        vertical-align: center;
+        text-align: center;
+        width: 100px;
+    height: 100px;
+    position: relative;
+ 
+    position: relative;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+      -webkit-animation: mymove 25s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 25s infinite;
+    
+       }
+
+           .rectangle4{
+        background-color: black;
+        color:white;
+        margin:10px; 
+        width: 400px;
+        height: 400px;
+        vertical-align: center;
+        text-align: center;
+        width: 100px;
+    height: 100px;
+    position: relative;
+ 
+    position: relative;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation: mymove 35s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 35s infinite;
+    
+       }
+
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

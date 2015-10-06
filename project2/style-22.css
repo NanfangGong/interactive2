@@ -1,0 +1,68 @@
+
+		.body{
+			margin:auto 0;
+		}
+
+		.menu{
+        	width: 1200px;
+        	height:20000px;
+	background-color: blue;
+	border:50px  dashed white;
+	display:inline-block;
+	vertical-align: top;
+	position: fixed;
+	z-index:-1;
+	vertical-align: top;
+	margin-top: -25px;
+	font-style:italic;
+	font-weight: lighter;
+}
+       
+
+       .rectangle{
+       	background-color: black;
+       	color:white;
+       	margin:10px; 
+       	width: 400px;
+       	height: 400px;
+       	vertical-align: center;
+       	text-align: center;
+       
+       
+       }
+
+       /* The animation code */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 100s;
+}
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
