@@ -7,6 +7,11 @@
   margin-top: 50px;
   width: 100px;
   height: 50px;
+
+  
+
+
+
   
  
 }
@@ -17,13 +22,14 @@
   text-decoration:none;
   position: fixed;
   color: black;
+  
 }
 
 
 
 #navigation-bar:hover {
-  color: red;
-  animation: swing 15s;
+  color: red;}
+  /*animation: swing 15s;
    -webkit-transform-origin: top center;
   transform-origin: top center;
   -webkit-animation-name: swing;
