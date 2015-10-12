@@ -79,7 +79,10 @@ position: fixed;
 margin-left: 50px;
 border-style: 1px dashed black;
 		}
-		*{
+
+
+
+		/**{
 font-style
 font-weight:lighter;
 font-size:40px;
@@ -88,7 +91,7 @@ text-align:center;
 line-height:1.5em;
 letter-spacing:0.5;
 text-transform:uppercase;
-}
+}*/
 
 	
 

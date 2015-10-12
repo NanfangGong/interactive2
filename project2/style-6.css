@@ -6,10 +6,10 @@
 
 		.text1{
 			
-			width: 70px;
+            width: 70px;
 			height: 30px;
 			font-style
-font-weight:border;
+            font-weight:border;
 font-size:10px;
 font-family:gothic;
 text-align:center;
@@ -61,7 +61,7 @@ text-transform:lowercase;
 		float: right;
 			margin-top: -25px;
 			margin-left: 220px;
-			position:absolute;
+			position:fixed;
 font-weight:lighter;
 font-size:40px;
 font-family:gothic;
@@ -69,8 +69,10 @@ text-align:center;
 line-height:1.5em;
 letter-spacing:0.5;
 text-transform:uppercase;
-position: fixed;
+position: absolute;
 		}
+
+		/*
 		*{
 font-style
 font-weight:lighter;
@@ -80,7 +82,7 @@ text-align:center;
 line-height:1.5em;
 letter-spacing:0.5;
 text-transform:uppercase;
-}
+}*/
 
 	
 
