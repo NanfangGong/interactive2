@@ -1,0 +1,55 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.column{
+	
+	
+background: rgba(225,225,225,0.6);
+    padding: 5px 10px 10px 10px;
+    opacity: 30%;
+    width: 85px;
+    float: left;
+    margin-right: 10px;
+    font-family: cursive;
+    text-decoration: none;
+color: white;
+       	background-color:none;
+       	margin:10px; 
+       	width: 168px;
+       	height: 200px;
+       
+     
+   
+	
+}
+.column a:hover{
+	color: white;
+	
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
