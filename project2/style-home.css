@@ -2,6 +2,11 @@
 *{
 	box-sizing: border-box;
 	text-decoration: none;
+  
+}
+
+body{
+  background-color: black;
 }
 
 
@@ -11,9 +16,10 @@
 
 
 .column{
-	
-	
-background: rgba(225,225,225,0.6);
+	color: white;
+	background-color: white;
+  opacity: 1.2;
+/*background: rgba(225,225,225,1.5);*/
     padding: 5px 10px 10px 10px;
     opacity: 30%;
     width: 85px;
@@ -32,7 +38,7 @@ color: white;
 	
 }
 .column a:hover{
-	color: white;
+	color: black;
 	
 }
 

@@ -6,25 +6,61 @@
   right: 0;
   height: 50px;
   text-align: center;
+  list-style: none;
 }
 
 #navigation-bar li {
+  background-color: white;
   display: inline-block;
   width: 200px;
   margin-top: 17px;
+  color: black;
+  list-style-type: none;
 }
 
 #navigation-bar li a {
+  background: white;
   width: 15em;
   padding: 0.5em 1em;
   text-decoration: none;
   color: purple;
   background-color: white;
+  color: black;
+  list-style-type: none;
 }
 
 #navigation-bar:hover {
   color: red;
 }
+
+
+
+
+
+
+
+div.ui-menu li {
+    list-style:none;
+    background-image:none;
+    background-repeat:none;
+    background-position:0; 
+}
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+li
+{
+    
+    background-repeat:no-repeat;
+    background-position:0px 5px; 
+    padding-left:14px;
+}
+
+
+
 
   
 
