@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+body{margin: 50px;}
+
+
+/*
+.cool{
+
+	height:300px;
+width: 300px;
+border:20px inset red;}*/
+
+.letter{
+	width:300px;
+	height:450px;
+	background-color: lime;
+	float: left;
+display: inline-block;
+	margin:0 8px 8px 0;
+	vertical-align: top;
+	position: relative;
+
+
+}
+.p .v1,
+.n .v1,
+.h .v1,
+.d .v1{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 6px;
+	background: black;
+
+
+
+}
+
+.n .v2,
+.h .v2{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 6px;
+	background-color: black;
+
+
+
+}
+
+.h .h1{
+
+position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 6px;
+	background: black;
+
+}
+.o .c1 {
+
+position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 6px solid black;
+	border-radius: 50%;
+
+}
+
+.d .c1 {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    border-top-right-radius:50%;
+	border:6px solid black;
+	border-bottom-right-radius: 50%;
+
+}
+
+.p .c1{
+
+
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	border: 6px solid black;
+	top: 0;
+	right: 0;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+
+
+
+}
+
+.n .d1{
+
+	position: absolute;
+	height: 6px;
+	width: 400px;
+	background: black;
+	left: 0;
+    margin-toP: 187px;
+    transform: rotate(65deg);
+
+}
+
+
+
+
+
+
+
+
+
+
