@@ -21,13 +21,15 @@
 			font-size: 80px;
 			text-transform: uppercase;
 			font-family: Courier, monospace;
-			background-color: #0000bf;
+			background-color: #f1003c;
 		}
 
 		.button-container {
 			position: fixed;
 			bottom: 75px;
 			left: 75px;
+			text-indent: 1em;
+
 		}
 
 		.list-one {
@@ -51,6 +53,9 @@
 			color: white;
 		}
 
+		.a{text-decoration: none;
+			list-style: none;}
+
 	</style>
 	<!-- 
 	***** END CSS ***** 
@@ -66,33 +71,25 @@
 
 			// list one content
 			var one = [
-				"rose",
-				"east",
-				"west",
-				"arch",
-				"fire",
-				"pill",
-				"masi",
-				"exit",
-				"lays",
-				"hall",
-			];
+				"Application",
+				"Language",
+				"Sightseeings",
+				"Restaurants",
+				"Money exchange",
+				"Safety",
+				
+			//];
 
-			// list two content
+			 //list two content
 			var two = [
 				"magic",
 				"vivre",
 				"japan",
 				"italy",
-				"north",
-				"class",
-				"print",
-				"paper",
-				"build",
-				"great",
+				
 
 
-			];
+			// ];
 
 			// list three content
 			var three = [
@@ -100,14 +97,9 @@
 				"equity",
 				"coffee",
 				"berlin",
-				"julian",
-				"design",
-				"studio",
-				"timken",
-				"nation",
-				"hooper",
+				
 
-			];
+			// ];
 
 			// list four content
 			var four = [
@@ -115,14 +107,9 @@
 				"simpson",
 				"snapple",
 				"cheetos",
-				"treated",
-				"shimano",
-				"tabacco",
-				"contest",
-				"lospino",
-				"chimera",
+				
 
-			];
+			// ];
 
 			// This is a very common randomizing function.
 			// It takes a list (array) and returns one at random.
@@ -167,9 +154,9 @@
 	<!--
 	This is the button.
 	-->
-	<div class="button-container">
-		<button>Again</button>
-	</div>
+	<center><div class="button-container" style="margin-left:400px;">
+		<button style="color: #f1003c; font-size:20px; font-family:Courier, monospace;">Try me</button>
+	</div></center>
 
 	<!--
 	This is the visible portion.
@@ -182,7 +169,7 @@
 
 	in the code below.
 	-->
-	<div class="list-one"></div>
+	<center><a href="interactive2/index.html"><div class="list-one"></div></a></center>
 	<div class="list-two"></div>
 	<div class="list-three"></div>
 	<div class="list-four"></div>

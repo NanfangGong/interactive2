@@ -13,9 +13,10 @@ header{
 .letter{
 	width:300px;
 	height:450px;
-	background-color: lime;
+	background-color:lime;
 	float: left;
 	display: inline-block;
+	margin-top: 100px;
 	margin:0 8px 8px 0;
 	vertical-align: top;
 	position: relative;
@@ -434,7 +435,7 @@ header{
 	-ms-transform:rotate(-45deg);
 }
 
-.x .v9,
+
 .w .v9{
 	position: absolute;
 	right: 185px;
@@ -446,6 +447,31 @@ header{
 	-mox-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
 }
+
+.x .v9{
+	position: absolute;
+	right: 188px;
+	height: 28.5%;
+	margin-top: 200px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(45deg);
+	-mox-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+.x .v11{
+	position: absolute;
+	right: 185px;
+	height: 28.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(135deg);
+	-mox-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+}
+
 
 .a .v10,
 .b .v10,
@@ -466,9 +492,7 @@ header{
 .s .v10,
 .t .v10,
 .u .v10,
-.x .v10,
-.y .v10,
-.z .v10{
+.y .v10{
 	position: absolute;
 	right: 55px;
 	height: 18.3%;
@@ -480,8 +504,32 @@ header{
 	-ms-transform:rotate(0deg);
 }
 
-.z .v10,
-.s .v10{
+.x .v10{
+	position: absolute;
+	right: 55px;
+	height: 18.3%;
+	margin-top: 355.3px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.x .v12{
+	position: absolute;
+	right: 55px;
+	height: 18.3%;
+	margin-top: 355.3px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(90deg);
+	-mox-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+}
+
+
+.z .v10{
 	position: absolute;
 	right: 56px;
 	height: 21.3%;
@@ -493,9 +541,21 @@ header{
 	-ms-transform:rotate(0deg);
 }
 
+.s .v10{
+	position: absolute;
+	left:53px;
+	height: 21.3%;
+	margin-top: 140px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
 
-.m .v10,
-.x .v10{
+
+
+.m .v10{
 	position: absolute;
 	right: 100px;
 	height: 28.5%;
@@ -580,6 +640,9 @@ header{
 	-ms-transform:rotate(45deg);
 }
 
+
+
+
 .a .h2,
 .b .h2,
 .c .h2,
@@ -642,7 +705,6 @@ header{
 .s .h3,
 .t .h3,
 .u .h3,
-.v .h3,
 .w .h3,
 .x .h3,
 .y .h3,
@@ -655,10 +717,19 @@ header{
 	background: black;
 }
 
+.v .h3{
+	position: absolute;
+	bottom: 0%;
+	margin-left: 10px;
+	width: 80%;
+	height: 14px;
+	background: black;
+}
+
 
 .p .h3{
 	position: absolute;
-margin-top: 300px;
+	margin-top: 300px;
 	margin-left: 55px;
 	width: 80%;
 	height: 14px;
@@ -668,7 +739,7 @@ margin-top: 300px;
 
 .d .h3{
 	position: absolute;
-bottom: 0%;
+	bottom: 0%;
 	margin-left: 10px;
 	width: 80%;
 	height: 14px;
@@ -714,6 +785,8 @@ bottom: 0%;
 .r:hover .v4,
 .s:hover .v1,
 .s:hover .v4,
+.t:hover .v1,
+.t:hover .v4,
 .u:hover .v1,
 .u:hover .v4,
 .v:hover .v1,
@@ -769,6 +842,8 @@ bottom: 0%;
 .r:hover .v3,
 .s:hover .v2,
 .s:hover .v3,
+.t:hover .v2,
+.t:hover .v3,
 .u:hover .v2,
 .u:hover .v3,
 .v:hover .v2,
@@ -785,3 +860,546 @@ bottom: 0%;
     -mox-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
 }
+
+
+
+
+
+.a:hover .v5,
+.b:hover .v5,
+.c:hover .v5,
+.d:hover .v5,
+.e:hover .v5,
+.f:hover .v5,
+.g:hover .v5,
+.h:hover .v5,
+.j:hover .v5,
+.k:hover .v5,
+.l:hover .v5,
+.m:hover .v5,
+.n:hover .v5,
+.o:hover .v5,
+.p:hover .v5,
+.q:hover .v5,
+.r:hover .v5,
+.s:hover .v5,
+.u:hover .v5,
+.v:hover .v5,
+.w:hover .v5,
+.x:hover .v5,
+.y:hover .v5,
+.z:hover .v5 {
+	position: absolute;
+	left: 3px;
+	height: 36.6%;
+	width: 14px;
+	margin-top: 144px;
+	background: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.i:hover .v5,
+.t:hover .v5{
+	position: absolute;
+	left: 113px;
+	height: 36.6%;
+	width: 14px;
+	margin-top: 144px;
+	background: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+.a:hover .v6,
+.b:hover .v6,
+.c:hover .v6,
+.d:hover .v6,
+.e:hover .v6,
+.f:hover .v6,
+.g:hover .v6,
+.h:hover .v6,
+.i:hover .v6,
+.j:hover .v6,
+.k:hover .v6,
+.l:hover .v6,
+.m:hover .v6,
+.n:hover .v6,
+.o:hover .v6,
+.p:hover .v6,
+.q:hover .v6,
+.r:hover .v6,
+.s:hover .v6,
+.u:hover .v6,
+.v:hover .v6,
+.w:hover .v6,
+.x:hover .v6,
+.y:hover .v6,
+.z:hover .v6 {
+	position: absolute;
+	right: 4px;
+	height: 36.6%;
+	width: 14px;
+	margin-top: 144px;
+	background: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+.a:hover .h1,
+.b:hover .h1,
+.c:hover .h1,
+.e:hover .h1,
+.f:hover .h1,
+.g:hover .h1,
+.h:hover .h1,
+.i:hover .h1,
+.j:hover .h1,
+.k:hover .h1,
+.l:hover .h1,
+.m:hover .h1,
+.o:hover .h1,
+.q:hover .h1,
+.r:hover .h1,
+.s:hover .h1,
+.t:hover .h1,
+.u:hover .h1,
+.v:hover .h1,
+.w:hover .h1,
+.x:hover .h1,
+.y:hover .h1,
+.z:hover .h1{
+
+	position: absolute;
+	top: 50%;
+	margin-left: 3px;
+	margin-right:3px;
+	width: 95%;
+	height: 14px;
+	background: black;}
+
+
+.n:hover .h1{
+	position: absolute;
+	top: 50%;
+	margin-left:-30px;
+	width: 115%;
+	height: 14px;
+	background: black;
+	-webkit-transform:rotate(45deg);
+	-mox-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+.a:hover .v8,
+.b:hover .v8,
+.c:hover .v8,
+.d:hover .v8,
+.e:hover .v8,
+.f:hover .v8,
+.g:hover .v8,
+.h:hover .v8,
+.i:hover .v8,
+.j:hover .v8,
+.k:hover .v8,
+.l:hover .v8,
+.m:hover .v8,
+.n:hover .v8,
+.o:hover .v8,
+.p:hover .v8,
+.q:hover .v8,
+.r:hover .v8,
+.s:hover .v8,
+.u:hover .v8,
+.v:hover .v8,
+.w:hover .v8,
+.x:hover .v8,
+.y:hover .v8,
+.z:hover .v8 {
+	position: absolute;
+	left: 3px;
+	height: 18.3%;
+	width: 14px;
+	margin-top: 144px;
+	background: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.a:hover .v10,
+.b:hover .v10,
+.c:hover .v10,
+.d:hover .v10,
+.e:hover .v10,
+.f:hover .v10,
+.g:hover .v10,
+.h:hover .v10,
+.i:hover .v10,
+.j:hover .v10,
+.l:hover .v10,
+.o:hover .v10,
+.p:hover .v10,
+.q:hover .v10,
+.r:hover .v10,
+.u:hover .v10,
+.v:hover .v10,
+.y:hover .v10 {
+	position: absolute;
+	right: 4px;
+	height: 18.3%;
+	margin-top: 225.3px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+.w:hover .v9{
+	position: absolute;
+	right: 210px;
+	height: 44.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(45deg);
+	-mox-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+.w:hover .v10{
+	position: absolute;
+	right: 79px;
+	height: 44.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(-45deg);
+	-mox-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);}
+
+.k:hover .v10{
+	position: absolute;
+	right: 15px;
+	height: 18.3%;
+	margin-top: 225.3px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.m:hover .v10{
+	position: absolute;
+	right: 79px;
+	height: 44.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(45deg);
+	-mox-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+.m:hover .v9{
+	position: absolute;
+	right: 210px;
+	height: 44.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(-45deg);
+	-mox-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+}
+
+
+.x:hover .v10{
+	position: absolute;
+	right: 55px;
+	height: 18.3%;
+	margin-top: 225.3px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+.x:hover .v9{
+	position: absolute;
+	right: 210px;
+	height: 44.5%;
+	margin-top: 128px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(-45deg);
+	-mox-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+}
+
+.z:hover .v10{}
+
+
+
+.a:hover .v7,
+.b:hover .v7,
+.c:hover .v7,
+.d:hover .v7,
+.e:hover .v7,
+.f:hover .v7,
+.g:hover .v7,
+.h:hover .v7,
+.i:hover .v7,
+.j:hover .v7,
+.l:hover .v7,
+.o:hover .v7,
+.p:hover .v7,
+.q:hover .v7,
+.r:hover .v7,
+.s:hover .v7,
+.u:hover .v7,
+.v:hover .v7,
+.w:hover .v7,
+.x:hover .v7,
+.y:hover .v7,
+.z:hover .v7 {
+	position: absolute;
+	right: 48.5px;
+	height: 36.6%;
+	margin-top: 144px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.s:hover .v10{
+	position: absolute;
+	left:3px;
+	height: 21.3%;
+	margin-top: 140px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.b:hover .v10{
+	position: absolute;
+	left:3px;
+	height: 21.3%;
+	margin-top: 140px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.s .v11{
+	position: absolute;
+	right:56px;
+	height: 17.3%;
+	margin-top: 230px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.s:hover .v11{
+	position: absolute;
+	right:4px;
+	height: 17.3%;
+	margin-top: 230px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+.q .v11{
+	position: absolute;
+	right:56px;
+	height: 17.3%;
+	margin-top: 350px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(45deg);
+	-mox-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+.q:hover .v11{
+	position: absolute;
+	right:56px;
+	height: 17.3%;
+	margin-top: 350px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(-45deg);
+	-mox-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+}
+
+
+
+.z:hover .v11{
+	position: absolute;
+	left:3px;
+	height: 17.3%;
+	margin-top: 230px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.z .v11{
+	position: absolute;
+	left:56px;
+	height: 17.3%;
+	margin-top: 230px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+.z:hover .v10{
+	position: absolute;
+	right: 4px;
+	height: 21.3%;
+	margin-top: 140px;
+	width: 14px;
+	background-color: black;
+	-webkit-transform:rotate(0deg);
+	-mox-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+}
+
+
+
+
+
+.a:hover .h2,
+.b:hover .h2,
+.c:hover .h2,
+.d:hover .h2,
+.e:hover .h2,
+.f:hover .h2,
+.g:hover .h2,
+.h:hover .h2,
+.i:hover .h2,
+.j:hover .h2,
+.l:hover .h2,
+.o:hover .h2,
+.p:hover .h2,
+.q:hover .h2,
+.r:hover .h2,
+.s:hover .h2,
+.u:hover .h2,
+.v:hover .h2,
+.w:hover .h2,
+.x:hover .h2,
+.y:hover .h2,
+.z:hover .h2 {
+	position: absolute;
+	top: 0%;
+	margin-left: 52px;
+	width: 65%;
+	height: 14px;
+		background: black;}
+
+
+
+.a:hover .h3,
+.b:hover .h3,
+.c:hover .h3,
+.e:hover .h3,
+.f:hover .h3,
+.g:hover .h3,
+.h:hover .h3,
+.i:hover .h3,
+.j:hover .h3,
+.l:hover .h3,
+.o:hover .h3,
+.q:hover .h3,
+.r:hover .h3,
+.s:hover .h3,
+.u:hover .h3,
+.w:hover .h3,
+.x:hover .h3,
+.y:hover .h3,
+.z:hover .h3 {
+	position: absolute;
+	bottom: 0%;
+	margin-left: 52px;
+	width: 65%;
+	height: 14px;
+		background: black;}
+
+.d:hover .h3{
+	position: absolute;
+	bottom: 0%;
+	margin-left: 52px;
+	width: 80%;
+	height: 14px;
+	background: black;}
+
+.d:hover .h2{
+	position: absolute;
+	top: 0%;
+	margin-left: 52px;
+	width: 80%;
+	height: 14px;
+	background: black;}
+
+
+.p:hover .h2{
+	position: absolute;
+	top: 0%;
+	margin-left: 50px;
+	width: 80%;
+	height: 14px;
+	background: black;
+
+		}
+
+.p:hover .h3{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 15px;
+	width: 80%;
+	height: 14px;
+	background: black;
+
+		}
+
+.v:hover .h3{
+	position: absolute;
+	bottom: 0%;
+	margin-left: 54px;
+	width: 80%;
+	height: 14px;
+	background: black;
+
+		}
+
