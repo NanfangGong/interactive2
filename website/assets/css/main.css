@@ -30,7 +30,7 @@ header{
 }
 
 .letter.inverted div {
-	background: black;
+	background: black !important;
 }
 
 .letter.inverted div div {
@@ -42,14 +42,21 @@ header{
 	width: 100%;
 }
 
-
-
 .container {
 	width: 1200px;
 	padding-left: 10px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin: 0 auto;
+}
+
+.letters.abc {
+	margin-bottom: 250px;
+}
+
+a.link .letter div div,
+a.link:hover .letter div div {
+	background: blue;
 }
 
 .space {
