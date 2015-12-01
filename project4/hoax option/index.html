@@ -12,12 +12,8 @@
 
 
 <style>
-body{  background-image:url(assets/image/web%20background%20copy.jpg);
-
-}
 
 .bgclr {
-
         background-color: #eee; 
         color: black; 
         font-weight: bold;
@@ -31,15 +27,12 @@ body{  background-image:url(assets/image/web%20background%20copy.jpg);
       }
       ul{list-style-type: none;}
 
-      .column{
-        background-color: white;
-        opacity: 0.5;
-        top: 0;
-        width: 1500px;
-        height: 1800px;
-        z-index: -3;
+.nav{
 
-      }
+}
+
+
+
 </style>
 
 
@@ -102,7 +95,7 @@ function getScore(form) {
 // sounds
 
 var audioOne = document.createElement('audio');
-  audioOne.setAttribute('src', 'assets/sound/oh no.wav');
+  audioOne.setAttribute('src', 'assets/sound/1.wav');
 
   $.get();
 
@@ -127,7 +120,6 @@ var audioOne = document.createElement('audio');
 <!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
 
 <body>
-  
 <div style="margin-left: 300pt">
 
 <h3>Quiz</h3>
@@ -145,7 +137,7 @@ var audioOne = document.createElement('audio');
 
 
 
-2. Can bear climb the tree?
+<!-- 2. Can bear climb the tree?
 <ul style="margin-top: 1pt">
   <li><input type="radio" name="q2" value="yes">yes</li>
   <li><input type="radio" name="q2" value="no"> no
@@ -214,10 +206,10 @@ var audioOne = document.createElement('audio');
   <li><input type="radio" name="q5" value="triangle">triangle</li>
 
 </ul>
+ -->
 
 
-<div class="column"></div>
-
+<ul><a href="2.html">Next</a></ul>
 
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
