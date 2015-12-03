@@ -1,0 +1,79 @@
+
+/*Base*/
+body { background: black; 
+color: white;
+font-size: 24px;
+}
+
+.wow{
+	width: 890px;
+	height: 835px;
+	background-color: white;
+	background: url('../images/1.jpg');
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+.wow{
+	background: url('../images/2.jpg');
+}
+  .two {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+.wow{
+	background: url('../images/3.jpg');
+}
+
+  .three {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+.wow{
+	background: url('../images/4.jpg');
+}
+
+  .four {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+
+.wow{
+	background: url('../images/5.jpg');
+}
+
+  .five {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+	.wow{
+	background: url('../images/6.jpg');
+}
+
+  .six {
+  	display: none;
+  }
+  
+}

@@ -12,7 +12,11 @@
 
 
 <style>
-body{  background-image:url(assets/image/web%20background%20copy.jpg);
+/*body{  background-image:url(assets/image/web%20background%20copy.jpg);
+
+}*/
+
+body{  background-image:none;
 
 }
 
@@ -39,6 +43,11 @@ body{  background-image:url(assets/image/web%20background%20copy.jpg);
         height: 1800px;
         z-index: -3;
 
+      }
+
+
+      .image{
+        float: right;
       }
 </style>
 
@@ -118,6 +127,17 @@ var audioOne = document.createElement('audio');
 //  End -->
 
 
+// var audio = document.getElementsByTagName("audio")[0];
+// audio.play();
+
+// // or with an ID
+
+// var audio = document.getElementById('src', 'assets/sound/oh no.wav');
+// audio.play();
+
+
+
+
 </script>
 
 
@@ -138,9 +158,14 @@ var audioOne = document.createElement('audio');
 
 1. What is the color of the coal?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q1" value="white">white</li>
-  <li><input type="radio" name="q1" value="black">black</li>
+  
+<li><input type="radio" name="q1" value="white">white</li>
+
+<li><input type="radio" name="q1" value="black">black</li>
 </ul>
+
+<div class="image"><img src="asset/image/1.jpg"></div>
+
 
 
 
@@ -214,10 +239,6 @@ var audioOne = document.createElement('audio');
   <li><input type="radio" name="q5" value="triangle">triangle</li>
 
 </ul>
-
-
-<div class="column"></div>
-
 
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
