@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -12,13 +13,6 @@
 
 
 <style>
-/*body{  background-image:url(assets/image/web%20background%20copy.jpg);
-
-}*/
-
-body{  background-image:none;
-
-}
 
 .bgclr {
 
@@ -45,10 +39,14 @@ body{  background-image:none;
 
       }
 
-
-      .image{
-        float: right;
+      ul img {
+         display: none; 
+         position: fixed;
+         top: 100px;
+         right: 100px;
+         width: 400px;
       }
+
 </style>
 
 
@@ -75,7 +73,7 @@ answers[1] = "yes";
 answers[2] = "swim";
 answers[3] = "yes";
 answers[4] = "eleven";
-answers[5] = "rat";
+answers[5] = "cat and rabbit";
 answers[6] = "rat";
 answers[7] = "eleven";
 answers[8] = "no";
@@ -111,32 +109,28 @@ function getScore(form) {
 // sounds
 
 var audioOne = document.createElement('audio');
-  audioOne.setAttribute('src', 'assets/sound/oh no.wav');
+audioOne.setAttribute('src', 'assets/sound/oh no.wav');
 
-  $.get();
+$.get();
 
-  audioOne.addEventListener("load", function() {
+audioOne.addEventListener("load", function() {
+    audioOne.play();
+}, true);
+
+$(document).ready(function(){
+
+  $('input[data-answer="wrong"]').on('click', function () {
+      // play sound
       audioOne.play();
-  }, true);
+      $(this).parents('ul').find('img').hide();
+  });
 
-  audioOne.play();
+  $('input[data-answer="right"]').on('click', function () {
+      // show image
+      $(this).parents('ul').find('img').show();
+  });
 
-// $('.letter').mouseover(function() {
-//   audioOne.play();
-// });
-//  End -->
-
-
-// var audio = document.getElementsByTagName("audio")[0];
-// audio.play();
-
-// // or with an ID
-
-// var audio = document.getElementById('src', 'assets/sound/oh no.wav');
-// audio.play();
-
-
-
+});
 
 </script>
 
@@ -158,23 +152,22 @@ var audioOne = document.createElement('audio');
 
 1. What is the color of the coal?
 <ul style="margin-top: 1pt">
-  
-<li><input type="radio" name="q1" value="white">white</li>
+  <li><input type="radio" name="q1" value="white" data-answer="right">white</li>
+  <li><input type="radio" name="q1" value="black" data-answer="wrong">black</li>
 
-<li><input type="radio" name="q1" value="black">black</li>
+  <img src="assets/image/coal.png">
 </ul>
 
-<div class="image"><img src="asset/image/1.jpg"></div>
 
 
 
-
-
-2. Can bear climb the tree?
+2. Can giraffe climb the tree?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q2" value="yes">yes</li>
-  <li><input type="radio" name="q2" value="no"> no
+  <li><input type="radio" name="q2" value="yes" data-answer="right">yes</li>
+  <li><input type="radio" name="q2" value="no" data-answer="wrong"> no
   </li>
+
+  <img src="assets/image/giraff climb tree.jpg">
   
 </ul>
 
@@ -182,63 +175,75 @@ var audioOne = document.createElement('audio');
 
   3. What is the thing cat good at?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q3" value="yes">swim</li>
-  <li><input type="radio" name="q3" value="no">catch rats</li>
-
+  <li><input type="radio" name="q3" value="yes" data-answer="right">swim</li>
+  <li><input type="radio" name="q3" value="no" data-answer="wrong">catch rats</li>
+  <img src="assets/image/cat swim.jpg">
 </ul>
 
 
 
 4. Do every Chinese knows Kongfu?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q4" value="no">no</li>
-  <li><input type="radio" name="q4" value="yes">yes</li>
+  <li><input type="radio" name="q4" value="no" data-answer="wrong">no</li>
+  <li><input type="radio" name="q4" value="yes"data-answer="right">yes</li>
+
+  <img src="assets/image/chinese kongfu.jpg">
  
 </ul>
 
 
-5. One plus one equals?
+5. who are couple?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q5" value="eleven">eleven</li>
-  <li><input type="radio" name="q5" value="two">two</li>
+  <li><input type="radio" name="q5" value="eleven" data-answer="right">rabbit and cat</li>
+  <li><input type="radio" name="q5" value="two" data-answer="wrong">rabbit and rabbit</li>
+  <img src="assets/image/cat and rabbit.png">
 
 </ul>
 
 
 6. Which one is heavy?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q6" value="elephant">elephant</li>
-  <li><input type="radio" name="q6" value="rat">rat</li>
+  <li><input type="radio" name="q6" value="elephant" data-answer="wrong">elephant</li>
+  <li><input type="radio" name="q6" value="rat" data-answer="right">rat</li>
+  <img src="assets/image/elephant lighter than rat.jpg">
 
 </ul>
 
 7. One plus one equals?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q7" value="eleven">eleven</li>
-  <li><input type="radio" name="q7" value="two">two</li>
+  <li><input type="radio" name="q7" value="eleven" data-answer="right">eleven</li>
+  <li><input type="radio" name="q7" value="two" data-answer="wrong">two</li>
+  <img src="assets/image/1+1=11.jpg">
 
 </ul>
 
 8. Turtle is faster than rabbit?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q8" value="yes">yes</li>
-  <li><input type="radio" name="q8" value="no">no</li>
+  <li><input type="radio" name="q8" value="yes" data-answer="right">yes</li>
+  <li><input type="radio" name="q8" value="no" data-answer="wrong">no</li>
+  <img src="assets/image/turtle faster rabbit.jpeg">
 
 </ul>
 
 9. 3+3+3+3+3 is equal to 5+5+5?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q9" value="yes">yes</li>
-  <li><input type="radio" name="q9" value="no">no</li>
+  <li><input type="radio" name="q9" value="yes" data-answer="right">yes</li>
+  <li><input type="radio" name="q9" value="no" data-answer="wrong">no</li>
+  <img src="assets/image/3+3+3+3+3=5+5+5.png">
 
 </ul>
+
 
 10. What is the shape of the sun?
 <ul style="margin-top: 1pt">
-  <li><input type="radio" name="q5" value="circle">circle</li>
-  <li><input type="radio" name="q5" value="triangle">triangle</li>
+  <li><input type="radio" name="q10" value="circle" data-answer="wrong">circle</li>
+  <li><input type="radio" name="q10" value="triangle" data-answer="right">triangle</li>
+  <img src="assets/image/sun.jpg">
 
 </ul>
+
+
+
 
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
