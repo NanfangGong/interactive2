@@ -14,6 +14,11 @@
 
 <style>
 
+@media screen and (max-width: 1000px) {
+
+
+
+
 .bgclr {
 
         background-color: #eee; 
@@ -41,11 +46,14 @@
 
       ul img {
          display: none; 
-         position: fixed;
-         top: 100px;
-         right: 100px;
          width: 400px;
+         position: fixed;
+         /*margin-left: 400px;
+         margin-top: -300px;*/
       }
+
+
+    }
 
 </style>
 
@@ -153,9 +161,9 @@ $(document).ready(function(){
 1. What is the color of the coal?
 <ul style="margin-top: 1pt">
   <li><input type="radio" name="q1" value="white" data-answer="right">white</li>
-  <li><input type="radio" name="q1" value="black" data-answer="wrong">black</li>
+  <li><input type="radio" name="q1" value="black" data-answer="wrong" style="margin-left:10px;">black</li>
 
-  <img src="assets/image/coal.png">
+ <div style="margin-left:10px;"> <img src="assets/image/coal.png"></div>
 </ul>
 
 
